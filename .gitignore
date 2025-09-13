@@ -1,0 +1,41 @@
+# Carpetas de Python
+# Carpetas de cache en cualquier parte del proyecto
+**/__pycache__/g
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de configuración
+*.log
+*.pot
+*.pyc
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración local (ejemplo: PyCharm, VSCode)
+.vscode/
+.idea/
+
+# Archivos de compilación de Qt/PySide
+*.qrc
+*.pyproject
+*.pro.user
+*.qmlc
+*.jsc
+
+# Archivos sensibles
+config.json
+*.secret
+*.key
