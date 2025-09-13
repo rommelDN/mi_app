@@ -1,6 +1,6 @@
 # Carpetas de Python
 # Carpetas de cache en cualquier parte del proyecto
-**/__pycache__/g
+**/__pycache__/
 *.py[cod]
 *.pyo
 *.pyd
