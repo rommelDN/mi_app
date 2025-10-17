@@ -298,7 +298,7 @@ class VentanaTransformaciones(QMainWindow):
             datos = ControladorGrafico.preparar(vertices)
             self.canvas.plot_polygon(datos["original"])
             self.vertices_actuales = vertices
-            print(f"Figura dibujada: {button.text()} → {vertices}")
+            
 
     def dibujar_figura3D(self, button, checked):
         if not checked:
@@ -340,7 +340,7 @@ class VentanaTransformaciones(QMainWindow):
         if vertices:
             self.canvas3d.plot_polyhedron(vertices, caras)
             self.canvas3d.vertices = vertices
-            print(f"Figura 3D dibujada: {button.text()} → {vertices}")
+            
 
     def actualizar_fijar(self, button, checked):
         # Mostrar self.input_punto solo si está seleccionado btn_fijar2 ("Escoger")
