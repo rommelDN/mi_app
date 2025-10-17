@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 # --- Función para rotar un conjunto de puntos 2D alrededor de un centro dado ---
 def rotacion_general(puntos, theta, centro):
     # puntos: array Nx2 con coordenadas (x, y)
